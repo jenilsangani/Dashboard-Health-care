@@ -3,11 +3,11 @@
 var isMenuOpen = true;
 
 function toggleMenu() {
-  let menuItems = document.querySelectorAll(".menuItemTitle");
-  let aside = document.querySelector("aside");
-  let sidebar = document.querySelector("div.sidebar");
-  let downArrow = document.getElementById("downarrow");
-  let clz = document.getElementById("close-btn");
+  var menuItems = document.querySelectorAll(".menuItemTitle");
+  var aside = document.querySelector("aside");
+  var sidebar = document.querySelector("div.sidebar");
+  var downArrow = document.getElementById("downarrow");
+  var clz = document.getElementById("close-btn");
 
   if (isMenuOpen) {
     menuItems.forEach(function (menuItem) {
