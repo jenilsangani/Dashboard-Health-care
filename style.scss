@@ -20,5 +20,98 @@ body {
     height: 100%;
     justify-items: stretch;
     justify-content: stretch;
+    aside {
+      width: 290px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 2px 0px 5px rgba($color: #000000, $alpha: 0.2);
+      z-index: 5;
+      background: #f9fafc;
+      .top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f9fafc;
+        gap: 5px;
+        border-bottom: 2px solid lightgray;
+        flex-direction: column;
+        padding: 31.29px 23px;
+        gap: 4.29px;
+        .logo {
+          width: 80px;
+        }
+      }
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        flex-grow: 1;
+        width: 290px;
+        .close {
+          align-items: flex-end;
+          display: grid;
+          align-items: center;
+          justify-content: center;
+          height: 44px;
+          width: 44px;
+          min-height: 44px;
+          margin: 19px 17px 34px auto;
+          background: #ffffff;
+          border-radius: 17px;
+          box-shadow: 0px 0px 5px rgba($color: black, $alpha: 0.2);
+          span {
+            height: 24px;
+            width: 24px;
+          }
+        }
+        .close:hover {
+          box-shadow: 0px 0px 10px rgba($color: black, $alpha: 0.3);
+          transition: 1000ms all ease;
+        }
+        a {
+          display: flex;
+          font-style: normal;
+          height: 24px;
+          margin: 0 38px;
+          margin-bottom: 54px;
+          line-height: 21px;
+          align-items: center;
+          color: #302e2c;
+          gap: 20px;
+          span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-size: 18px;
+            font-weight: 500;
+          }
+        }
+        .active {
+          background-color: #000000;
+          color: #ffffff;
+          height: 54px;
+          border-radius: 100px;
+          margin: 0 17px;
+          gap: 0;
+          span {
+            height: 24px;
+            width: 24px;
+            margin: 15px 20px 14px 20px;
+          }
+          h3 {
+            margin: 16px 0;
+            height: auto;
+          }
+          img {
+            margin-left: auto;
+            margin-right: 24px;
+          }
+        }
+        a:last-child {
+          margin-top: auto;
+        }
+      }
+    }
   }
 }
