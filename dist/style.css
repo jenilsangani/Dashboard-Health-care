@@ -249,7 +249,64 @@ body .container .main .bottom .divider div:nth-child(3) {
   border-top-right-radius: 50%;
 }
 body .container .main .registrationsActivity p {
-  margin: 55px auto auto 42px;
+  display: flex;
+  margin: 20px auto 10px 42px;
   font-size: 22px;
   font-weight: 500;
+}
+body .container .main .registrationsActivity .square p {
+  border: 1px solid;
+  padding-top: 250px;
+}
+body .container .main .locationActivity {
+  display: flex;
+  width: 100%;
+}
+body .container .main .locationActivity .bottomsquare {
+  width: 100%;
+}
+body .container .main .locationActivity .bottomsquare p {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-left: 43px;
+}
+body .container .main .locationActivity .bottomsquare p:nth-child(2) {
+  padding-right: 400px;
+  padding-bottom: 200px;
+  border: 1px solid;
+}
+body .container .main .locationActivity .bottomsquare2 {
+  width: 100%;
+}
+body .container .main .locationActivity .bottomsquare2 p {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+body .container .main .locationActivity .bottomsquare2 p:nth-child(2) {
+  padding-right: 500px;
+  padding-bottom: 200px;
+  border: 1px solid;
+}
+body .container .main .locationActivity .bottomsquare3 {
+  width: 100%;
+}
+body .container .main .locationActivity .bottomsquare3 p {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-left: 45px;
+}
+body .container .main .locationActivity .bottomsquare3 p:nth-child(2) {
+  padding-right: 500px;
+  padding-bottom: 200px;
+  border: 1px solid;
 }

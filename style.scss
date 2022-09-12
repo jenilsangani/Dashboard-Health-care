@@ -249,9 +249,68 @@ body {
       }
       .registrationsActivity {
         p {
-          margin: 55px auto auto 42px;
+          display: flex;
+          margin: 20px auto 10px 42px;
           font-size: 22px;
           font-weight: 500;
+        }
+        .square {
+          p {
+            border: 1px solid;
+            padding-top: 250px;
+          }
+        }
+      }
+      .locationActivity {
+        display: flex;
+        width: 100%;
+        .bottomsquare {
+          width: 100%;
+          p {
+            display: flex;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 26px;
+            margin-top: 25px;
+            margin-left: 43px;
+          }
+          p:nth-child(2) {
+            padding-right: 400px;
+            padding-bottom: 200px;
+            border: 1px solid;
+          }
+        }
+        .bottomsquare2 {
+          width: 100%;
+          p {
+            display: flex;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 26px;
+            margin-top: 25px;
+            margin-left: 45px;
+          }
+          p:nth-child(2) {
+            padding-right: 500px;
+            padding-bottom: 200px;
+            border: 1px solid;
+          }
+        }
+        .bottomsquare3 {
+          width: 100%;
+          p {
+            display: flex;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 26px;
+            margin-top: 25px;
+            margin-left: 45px;
+          }
+          p:nth-child(2) {
+            padding-right: 500px;
+            padding-bottom: 200px;
+            border: 1px solid;
+          }
         }
       }
     }
