@@ -145,6 +145,7 @@ body .container .main .top .table table tr:nth-child(1) {
 body .container .main .top .table table tr:nth-child(1) th {
   height: 50px;
   color: #96a9ba;
+  width: 100px;
   border-bottom: 1px solid rgba(151, 151, 149, 0.5);
 }
 body .container .main .top .table table tr:nth-child(2) {
@@ -152,6 +153,7 @@ body .container .main .top .table table tr:nth-child(2) {
 }
 body .container .main .top .table table tr:nth-child(2) td {
   color: #96a9ba;
+  width: 100px;
   height: 50px;
 }
 body .container .main .top .overview {
@@ -193,4 +195,52 @@ body .container .main .middle .input input {
 }
 body .container .main .middle .input p:nth-child(3) {
   color: #96a9ba;
+}
+body .container .main .bottom {
+  position: relative;
+}
+body .container .main .bottom .title {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+body .container .main .bottom .year {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .main .bottom .year .q1 {
+  font-weight: 500;
+  color: #96a9ba;
+  line-height: 19px;
+}
+body .container .main .bottom .year .q4 {
+  font-size: 16px;
+  color: #96a9ba;
+  font-weight: 500;
+  line-height: 19px;
+}
+body .container .main .bottom .divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .main .bottom .divider div {
+  border: 3px solid #dddddd;
+  height: 13px;
+  width: 10px;
+}
+body .container .main .bottom .divider div:nth-child(1) {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+body .container .main .bottom .divider div:nth-child(2) {
+  flex-grow: 1;
+  border: none;
+  height: 5px;
+  background: #dddddd;
+}
+body .container .main .bottom .divider div:nth-child(3) {
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
 }
