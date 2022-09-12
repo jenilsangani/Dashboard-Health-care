@@ -99,20 +99,20 @@ body .container aside .sidebar .active {
   height: 54px;
   border-radius: 100px;
   margin: 0 17px;
+  margin-bottom: 54px;
   gap: 0;
 }
 body .container aside .sidebar .active span {
   height: 24px;
   width: 24px;
-  margin: 15px 20px 14px 20px;
+  margin: 18px 20px 14px 20px;
 }
 body .container aside .sidebar .active h3 {
   margin: 16px 0;
   height: auto;
 }
 body .container aside .sidebar .active img {
-  margin-left: auto;
-  margin-right: 24px;
+  border: 2px solid;
 }
 body .container aside .sidebar a:last-child {
   margin-top: auto;
