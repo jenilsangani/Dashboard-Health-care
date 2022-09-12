@@ -72,6 +72,12 @@ body {
           box-shadow: 0px 0px 10px rgba($color: black, $alpha: 0.3);
           transition: 1000ms all ease;
         }
+        h3 {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 18px;
+          font-weight: 500;
+        }
         a {
           display: flex;
           font-style: normal;
@@ -239,6 +245,13 @@ body {
             border-bottom-right-radius: 50%;
             border-top-right-radius: 50%;
           }
+        }
+      }
+      .registrationsActivity {
+        p {
+          margin: 55px auto auto 42px;
+          font-size: 22px;
+          font-weight: 500;
         }
       }
     }

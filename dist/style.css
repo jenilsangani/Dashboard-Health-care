@@ -76,6 +76,12 @@ body .container aside .sidebar .close:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: 1000ms all ease;
 }
+body .container aside .sidebar h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 500;
+}
 body .container aside .sidebar a {
   display: flex;
   font-style: normal;
@@ -241,4 +247,9 @@ body .container .main .bottom .divider div:nth-child(2) {
 body .container .main .bottom .divider div:nth-child(3) {
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
+}
+body .container .main .registrationsActivity p {
+  margin: 55px auto auto 42px;
+  font-size: 22px;
+  font-weight: 500;
 }
