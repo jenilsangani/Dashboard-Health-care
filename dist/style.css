@@ -135,7 +135,34 @@ body .container .main .top .table {
   width: 100%;
 }
 body .container .main .top .table table {
+  border-bottom: 1px solid rgba(151, 151, 149, 0.5);
   width: 100%;
+  border-collapse: collapse;
+}
+body .container .main .top .table table tr:nth-child(1) {
+  text-align: center;
+}
+body .container .main .top .table table tr:nth-child(1) th {
+  height: 50px;
+  color: #96a9ba;
+  border-bottom: 1px solid rgba(151, 151, 149, 0.5);
+}
+body .container .main .top .table table tr:nth-child(2) {
+  text-align: center;
+}
+body .container .main .top .table table tr:nth-child(2) td {
+  color: #96a9ba;
+  height: 50px;
+}
+body .container .main .top .overview {
+  background: #f7f8fa;
+}
+body .container .main .top .overview p {
+  padding-left: 64px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 8px;
 }
 body .container .main .middle {
   display: flex;
@@ -153,9 +180,17 @@ body .container .main .middle .input {
   align-items: center;
   gap: 15px;
 }
+body .container .main .middle .input p {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+}
 body .container .main .middle .input input {
   border: 1px solid gainsboro;
   border-radius: 25px;
   height: 37px;
   padding: 0px 15px;
+}
+body .container .main .middle .input p:nth-child(3) {
+  color: #96a9ba;
 }
