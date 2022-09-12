@@ -88,10 +88,8 @@ body .container aside .sidebar a {
   gap: 20px;
 }
 body .container aside .sidebar a span {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-size: 18px;
-  font-weight: 500;
+  width: 24px;
+  height: 24px;
 }
 body .container aside .sidebar .active {
   background-color: #000000;
@@ -105,7 +103,7 @@ body .container aside .sidebar .active {
 body .container aside .sidebar .active span {
   height: 24px;
   width: 24px;
-  margin: 18px 20px 14px 20px;
+  margin: 15px 20px 14px 20px;
 }
 body .container aside .sidebar .active h3 {
   margin: 16px 0;
