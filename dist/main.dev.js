@@ -32,4 +32,14 @@ function toggleMenu() {
   }
 
   isMenuOpen = !isMenuOpen;
+} // for date
+
+
+function setDate() {
+  var fromDate = document.getElementById("From");
+  var toDate = document.getElementById("to");
+  fromDate.value = "2022-08-01";
+  toDate.value = "2022-08-05"; // today.getFullYear()+"-"+today.getMonth()+"-"+today.getDay()
 }
+
+setDate();
