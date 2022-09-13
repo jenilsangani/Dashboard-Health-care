@@ -23,6 +23,7 @@ body .container {
   justify-content: stretch;
 }
 body .container aside {
+  transition: all 0ms;
   width: 290px;
   display: flex;
   flex-direction: column;
@@ -118,13 +119,16 @@ body .container aside .sidebar .active h3 {
 body .container aside .sidebar .active img {
   border: 2px solid;
 }
-body .container aside .sidebar a:last-child {
+body .container aside .sidebar .logout {
   margin-top: auto;
 }
 body .container .main {
   flex-grow: 1;
+  transition: all 0ms;
   background: #ecedef;
   padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
 }
 body .container .main .card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -202,6 +206,9 @@ body .container .main .middle .input p:nth-child(3) {
 }
 body .container .main .bottom {
   position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 body .container .main .bottom .title {
   text-align: center;
@@ -248,24 +255,33 @@ body .container .main .bottom .divider div:nth-child(3) {
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
 }
-body .container .main .registrationsActivity p {
+body .container .main .bottom .registrationsActivity {
   display: flex;
-  margin: 20px auto 10px 42px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+body .container .main .bottom .registrationsActivity p {
+  display: flex;
+  margin: 0px auto 10px 42px;
   font-size: 22px;
   font-weight: 500;
 }
-body .container .main .registrationsActivity .square p {
+body .container .main .bottom .registrationsActivity .square {
+  flex-grow: 1;
+}
+body .container .main .bottom .registrationsActivity .square p {
   border: 1px solid;
-  padding-top: 250px;
+  height: 100%;
 }
-body .container .main .locationActivity {
+body .container .main .bottom .locationActivity {
   display: flex;
+  flex-grow: 1;
   width: 100%;
 }
-body .container .main .locationActivity .bottomsquare {
+body .container .main .bottom .locationActivity .bottomsquare {
   width: 100%;
 }
-body .container .main .locationActivity .bottomsquare p {
+body .container .main .bottom .locationActivity .bottomsquare p {
   display: flex;
   font-size: 22px;
   font-weight: 600;
@@ -273,15 +289,14 @@ body .container .main .locationActivity .bottomsquare p {
   margin-top: 25px;
   margin-left: 43px;
 }
-body .container .main .locationActivity .bottomsquare p:nth-child(2) {
-  padding-right: 400px;
-  padding-bottom: 200px;
+body .container .main .bottom .locationActivity .bottomsquare p:nth-child(2) {
+  height: 70%;
   border: 1px solid;
 }
-body .container .main .locationActivity .bottomsquare2 {
+body .container .main .bottom .locationActivity .bottomsquare2 {
   width: 100%;
 }
-body .container .main .locationActivity .bottomsquare2 p {
+body .container .main .bottom .locationActivity .bottomsquare2 p {
   display: flex;
   font-size: 22px;
   font-weight: 600;
@@ -289,15 +304,14 @@ body .container .main .locationActivity .bottomsquare2 p {
   margin-top: 25px;
   margin-left: 45px;
 }
-body .container .main .locationActivity .bottomsquare2 p:nth-child(2) {
-  padding-right: 500px;
-  padding-bottom: 200px;
+body .container .main .bottom .locationActivity .bottomsquare2 p:nth-child(2) {
+  height: 70%;
   border: 1px solid;
 }
-body .container .main .locationActivity .bottomsquare3 {
+body .container .main .bottom .locationActivity .bottomsquare3 {
   width: 100%;
 }
-body .container .main .locationActivity .bottomsquare3 p {
+body .container .main .bottom .locationActivity .bottomsquare3 p {
   display: flex;
   font-size: 22px;
   font-weight: 600;
@@ -305,8 +319,7 @@ body .container .main .locationActivity .bottomsquare3 p {
   margin-top: 25px;
   margin-left: 45px;
 }
-body .container .main .locationActivity .bottomsquare3 p:nth-child(2) {
-  padding-right: 500px;
-  padding-bottom: 200px;
+body .container .main .bottom .locationActivity .bottomsquare3 p:nth-child(2) {
+  height: 70%;
   border: 1px solid;
 }

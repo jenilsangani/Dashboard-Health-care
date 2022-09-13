@@ -21,6 +21,7 @@ body {
     justify-items: stretch;
     justify-content: stretch;
     aside {
+      transition: all 0ms;
       width: 290px;
       display: flex;
       flex-direction: column;
@@ -114,15 +115,22 @@ body {
             border: 2px solid;
           }
         }
-        a:last-child {
+        .logout {
           margin-top: auto;
+          // position: fixed;
+          // z-index: 4;
+          // bottom: 0;
         }
       }
     }
     .main {
       flex-grow: 1;
+      transition: all 0ms;
+
       background: #ecedef;
       padding: 0px 15px;
+      display: flex;
+      flex-direction: column;
       .card {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
       }
@@ -201,6 +209,9 @@ body {
       }
       .bottom {
         position: relative;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
         .title {
           text-align: center;
           margin-top: 24px;
@@ -246,70 +257,74 @@ body {
             border-top-right-radius: 50%;
           }
         }
-      }
-      .registrationsActivity {
-        p {
+        .registrationsActivity {
           display: flex;
-          margin: 20px auto 10px 42px;
-          font-size: 22px;
-          font-weight: 500;
-        }
-        .square {
-          p {
-            border: 1px solid;
-            padding-top: 250px;
-          }
-        }
-      }
-      .locationActivity {
-        display: flex;
-        width: 100%;
-        .bottomsquare {
-          width: 100%;
+          flex-grow: 1;
+          flex-direction: column;
           p {
             display: flex;
+            margin: 0px auto 10px 42px;
             font-size: 22px;
-            font-weight: 600;
-            line-height: 26px;
-            margin-top: 25px;
-            margin-left: 43px;
+            font-weight: 500;
           }
-          p:nth-child(2) {
-            padding-right: 400px;
-            padding-bottom: 200px;
-            border: 1px solid;
+          .square {
+            flex-grow: 1;
+            p {
+              border: 1px solid;
+              height: 100%;
+            }
           }
         }
-        .bottomsquare2 {
+        .locationActivity {
+          display: flex;
+          flex-grow: 1;
+
           width: 100%;
-          p {
-            display: flex;
-            font-size: 22px;
-            font-weight: 600;
-            line-height: 26px;
-            margin-top: 25px;
-            margin-left: 45px;
+          .bottomsquare {
+            width: 100%;
+            p {
+              display: flex;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 26px;
+              margin-top: 25px;
+              margin-left: 43px;
+            }
+            p:nth-child(2) {
+              height: 70%;
+              border: 1px solid;
+            }
           }
-          p:nth-child(2) {
-            padding-right: 500px;
-            padding-bottom: 200px;
-            border: 1px solid;
+          .bottomsquare2 {
+            width: 100%;
+            p {
+              display: flex;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 26px;
+              margin-top: 25px;
+              margin-left: 45px;
+            }
+            p:nth-child(2) {
+              height: 70%;
+              border: 1px solid;
+            }
           }
-        }
-        .bottomsquare3 {
-          width: 100%;
-          p {
-            display: flex;
-            font-size: 22px;
-            font-weight: 600;
-            line-height: 26px;
-            margin-top: 25px;
-            margin-left: 45px;
-          }
-          p:nth-child(2) {
-            padding-right: 500px;
-            padding-bottom: 200px;
-            border: 1px solid;
+          .bottomsquare3 {
+            width: 100%;
+            p {
+              display: flex;
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 26px;
+              margin-top: 25px;
+              margin-left: 45px;
+              // margin-bottom: 10px;
+            }
+            p:nth-child(2) {
+              height: 70%;
+              border: 1px solid;
+            }
           }
         }
       }
